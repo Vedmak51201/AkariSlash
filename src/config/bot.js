@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "/help | AkariSlash",
         // Activity type number (0 = Playing).
         type: 0,
       },
@@ -219,22 +219,22 @@ export const botConfig = {
       low: {
         emoji: "🟢",
         color: "#2ECC71",
-        label: "Low",
+        label: "Низкий",
       },
       medium: {
         emoji: "🟡",
         color: "#F1C40F",
-        label: "Medium",
+        label: "Средний",
       },
       high: {
         emoji: "🔴",
         color: "#E74C3C",
-        label: "High",
+        label: "Высокий",
       },
       urgent: {
         emoji: "🚨",
         color: "#E91E63",
-        label: "Urgent",
+        label: "СРОЧНО",
       },
     },
 
@@ -292,7 +292,7 @@ export const botConfig = {
   // =========================
   verification: {
     // Message shown when posting the verification panel.
-    defaultMessage: "Click the button below to verify yourself and gain access to the server!",
+    defaultMessage: "Нажмите на кнопку ниже, чтобы подтвердить свою личность и получить доступ к серверу!",
 
     // Text on the verification button.
     defaultButtonText: "Verify",
